@@ -21,7 +21,7 @@ namespace flapp
 
         public void Update(GameTime gameTime)
         {
-            
+            Position.X -= 100 * (float) gameTime.ElapsedGameTime.TotalSeconds;
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)

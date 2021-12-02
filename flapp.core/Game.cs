@@ -28,7 +28,7 @@ namespace flapp
             // initialize game objects
             var pos = new Vector2(_graphics.PreferredBackBufferWidth / 2, 0);
             player = new Player(pos);
-            pipe = new Pipe(new Vector2(0, 0));
+            pipe = new Pipe(new Vector2(_graphics.PreferredBackBufferWidth, 0));
             base.Initialize();
         }
 
@@ -45,6 +45,7 @@ namespace flapp
                 Exit();
 
             // player.Update(gameTime);
+            pipe.Update(gameTime);
             base.Update(gameTime);
         }
 
