@@ -4,11 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>/home/raymond/Documents/GamePractices/flapp/flapp.core/Content/../../../../../Downloads/rectangle.png</File>
     <File>/home/raymond/Documents/GamePractices/flapp/flapp.core/Content/ball.png</File>
+    <File>/home/raymond/Documents/GamePractices/flapp/flapp.core/Content/rectangle.png</File>
   </SourceFiles>
   <DestFiles>
-    <File>rectangle.png</File>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

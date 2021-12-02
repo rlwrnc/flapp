@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"/home/raymond/Documents/GamePractices/flapp/flapp.core/Content/ball.png","/home/raymond/Documents/GamePractices/flapp/flapp.core/Content/bin/DesktopGL/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.1211026
+"/home/raymond/Documents/GamePractices/flapp/flapp.core/Content/rectangle.png","/home/raymond/Documents/GamePractices/flapp/flapp.core/Content/bin/DesktopGL/rectangle.xnb","TextureProcessor","Texture2DContent",660,100085,0.1319359

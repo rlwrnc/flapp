@@ -25,3 +25,4 @@
 /home/raymond/Documents/GamePractices/flapp/flapp.desktopgl/obj/Debug/netcoreapp3.1/flapp.desktopgl.dll
 /home/raymond/Documents/GamePractices/flapp/flapp.desktopgl/obj/Debug/netcoreapp3.1/flapp.desktopgl.pdb
 /home/raymond/Documents/GamePractices/flapp/flapp.desktopgl/obj/Debug/netcoreapp3.1/flapp.desktopgl.genruntimeconfig.cache
+/home/raymond/Documents/GamePractices/flapp/flapp.desktopgl/bin/Debug/netcoreapp3.1/Content/rectangle.xnb
