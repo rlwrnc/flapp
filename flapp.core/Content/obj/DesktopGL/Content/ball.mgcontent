@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>/home/raymond/Documents/GamePractices/flapp/flapp.core/Content/ball.png</SourceFile>
-  <SourceTime>2021-12-01T19:40:01.0182898-05:00</SourceTime>
+  <SourceTime>2021-12-02T16:36:21.5119885-05:00</SourceTime>
   <DestFile>/home/raymond/Documents/GamePractices/flapp/flapp.core/Content/bin/DesktopGL/Content/ball.xnb</DestFile>
-  <DestTime>2021-12-02T13:42:44.6729499-05:00</DestTime>
+  <DestTime>2021-12-02T16:44:32.1456928-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T12:17:54-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

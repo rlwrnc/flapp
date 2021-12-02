@@ -10,14 +10,12 @@ namespace flapp
     {
         static Texture2D Texture;
         Vector2 Position;
-        float gravity, verticalSpeed, jumpSpeed;
-        bool isJumpAvailable;
+        float gravity, verticalSpeed;
 
         public Player(Vector2 initialPosition)
         {
             Position = initialPosition;
             verticalSpeed = 0;
-            isJumpAvailable = true;
         }
 
 
@@ -30,13 +28,12 @@ namespace flapp
         {
             var deltat = (float) gameTime.ElapsedGameTime.TotalSeconds;
             var jumpPressed = Keyboard.GetState().IsKeyDown(Keys.Space);
-            Console.WriteLine($"jumpPressed: {jumpPressed}");
 
             if(jumpPressed)
                 verticalSpeed = -700;
             else
             {
-                if(verticalSpeed < 300)
+                if(verticalSpeed < 500)
                     gravity = 2000;
                 else 
                     gravity = 0;
