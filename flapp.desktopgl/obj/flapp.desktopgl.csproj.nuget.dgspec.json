@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/raymond/Documents/GamePractices/flapp/flapp.desktopgl/flapp.desktopgl.csproj": {}
+  },
+  "projects": {
+    "/home/raymond/Documents/GamePractices/flapp/flapp.core/flapp.core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/raymond/Documents/GamePractices/flapp/flapp.core/flapp.core.csproj",
+        "projectName": "flapp.core",
+        "projectPath": "/home/raymond/Documents/GamePractices/flapp/flapp.core/flapp.core.csproj",
+        "packagesPath": "/home/raymond/.nuget/packages/",
+        "outputPath": "/home/raymond/Documents/GamePractices/flapp/flapp.core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raymond/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "MonoGame.Framework.DesktopGL": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.8.0.1641, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/raymond/Documents/GamePractices/flapp/flapp.desktopgl/flapp.desktopgl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/raymond/Documents/GamePractices/flapp/flapp.desktopgl/flapp.desktopgl.csproj",
+        "projectName": "flapp.desktopgl",
+        "projectPath": "/home/raymond/Documents/GamePractices/flapp/flapp.desktopgl/flapp.desktopgl.csproj",
+        "packagesPath": "/home/raymond/.nuget/packages/",
+        "outputPath": "/home/raymond/Documents/GamePractices/flapp/flapp.desktopgl/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/raymond/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/raymond/Documents/GamePractices/flapp/flapp.core/flapp.core.csproj": {
+                "projectPath": "/home/raymond/Documents/GamePractices/flapp/flapp.core/flapp.core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MonoGame.Content.Builder.Task": {
+              "target": "Package",
+              "version": "[3.8.0.1641, )"
+            },
+            "MonoGame.Framework.DesktopGL": {
+              "target": "Package",
+              "version": "[3.8.0.1641, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.21, 3.1.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

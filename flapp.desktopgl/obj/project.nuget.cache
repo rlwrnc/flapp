@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bpymj9197Yzpx0Cl9KfXhHw+ISJp9fmkK2p5+Xe84/9GrHJi2LP+vuwvLjPmcoArNILOb04l3GQNfjrQnZUWRQ==",
+  "success": true,
+  "projectFilePath": "/home/raymond/Documents/GamePractices/flapp/flapp.desktopgl/flapp.desktopgl.csproj",
+  "expectedPackageFiles": [
+    "/home/raymond/.nuget/packages/monogame.content.builder.task/3.8.0.1641/monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "/home/raymond/.nuget/packages/monogame.framework.desktopgl/3.8.0.1641/monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
+    "/home/raymond/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/raymond/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/home/raymond/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.21/microsoft.netcore.app.host.linux-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}
