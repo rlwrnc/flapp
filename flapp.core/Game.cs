@@ -18,11 +18,13 @@ namespace flapp
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+            // set screen size to 1920x1080
             _graphics.IsFullScreen = false;
             _graphics.PreferredBackBufferWidth = 1920;
             _graphics.PreferredBackBufferHeight = 1080;
             _graphics.ApplyChanges();
+
+            // initialize game objects
             var pos = new Vector2(_graphics.PreferredBackBufferWidth / 2, 0);
             player = new Player(pos);
             base.Initialize();
@@ -32,7 +34,6 @@ namespace flapp
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             player.LoadContent(Content);
-            // TODO: use this.Content to load your game content here
         }
 
         protected override void Update(GameTime gameTime)
@@ -40,9 +41,7 @@ namespace flapp
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
             player.Update(gameTime);
-
             base.Update(gameTime);
         }
 
@@ -54,6 +53,7 @@ namespace flapp
             _spriteBatch.Begin();
             player.Draw(gameTime, _spriteBatch);
             _spriteBatch.End();
+
             base.Draw(gameTime);
         }
     }

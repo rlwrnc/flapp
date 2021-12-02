@@ -26,12 +26,12 @@ namespace flapp
 
         public void Update(GameTime gameTime)
         {
-            var deltat = (float) gameTime.ElapsedGameTime.TotalSeconds;
-            var jumpPressed = Keyboard.GetState().IsKeyDown(Keys.Space);
+            var deltat = (float) gameTime.ElapsedGameTime.TotalSeconds;     // time since last update
+            var jumpPressed = Keyboard.GetState().IsKeyDown(Keys.Space);    // jump key = space
 
-            if(jumpPressed)
+            if(jumpPressed)                                                 // if space pressed, jump in the air
                 verticalSpeed = -700;
-            else
+            else                                                            // otherwise, accelerate downward to terminal velocity
             {
                 if(verticalSpeed < 500)
                     gravity = 2000;
@@ -39,8 +39,8 @@ namespace flapp
                     gravity = 0;
             }
 
-            verticalSpeed += gravity * deltat;
-            Position.Y += verticalSpeed * deltat + (gravity / 2) * (float) Math.Pow(deltat, 2);
+            verticalSpeed += gravity * deltat;                              // calculate new speed
+            Position.Y += verticalSpeed * deltat + (gravity / 2) * (float) Math.Pow(deltat, 2); // calculate new position
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
